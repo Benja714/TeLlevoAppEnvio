@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Agregar transporte</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-item>
+      <ion-label position="floating">Ingresar nombre</ion-label>
+      <ion-input placeholder="Nombre"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Ingresar patente</ion-label>
+      <ion-input placeholder="Patente"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Cantidad disponible</ion-label>
+      <ion-select placeholder="Selecciona uno">
+        <ion-select-option value="1a">1</ion-select-option>
+        <ion-select-option value="2a">2</ion-select-option>
+        <ion-select-option value="3a">3</ion-select-option>
+        <ion-select-option value="4a">4</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Valor por persona</ion-label>
+      <ion-input placeholder="Nombre" type="number">$ </ion-input>
+    </ion-item>
+    <ion-button shape="round" color="light" routerLink="/inicio">Volver</ion-button>
+  </div>
+</ion-content>

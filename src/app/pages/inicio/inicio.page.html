@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-card>
+      <ion-item routerLink="/transporte-si">
+        <ion-icon name="car-sport-outline" slot="start"></ion-icon>
+        <ion-label>Tiene un transporte</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card>
+      <ion-item routerLink="/transporte-no">
+        <ion-icon name="walk-outline" slot="start"></ion-icon>
+        <ion-label>Necesito un transporte</ion-label>
+      </ion-item>
+    </ion-card>
+    <ion-button shape="round" color="light" routerLink="/home">Cerrar sesion</ion-button>
+  </div>
+</ion-content>
